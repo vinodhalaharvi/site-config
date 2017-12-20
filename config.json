@@ -1,0 +1,24 @@
+{
+  "siteId": "436eb0ca-dc53-489d-bd28-3a47be819fdd",
+  "siteName": "Example Site",
+  "siteTimezone": "UTC",
+  "siteLocation": [
+    0,
+    0
+  ],
+  "siteHealthDevice": "root",
+  "enableDeviceConfiguration": [],
+  "rules": {
+    "enabled": false,
+    "rulesFile": "../site-config/rules.js"
+  },
+  "isFailover": false,
+  "upstream": {
+    "enabled": false,
+    "url": "http://10.3.244.143:4000",
+    "jwtKey": ""
+  },
+  "influx": {
+    "db": "example_site"
+  }
+}
