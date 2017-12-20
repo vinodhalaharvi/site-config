@@ -13,10 +13,15 @@
     "rulesFile": "../site-config/rules.js"
   },
   "isFailover": false,
+  "downstream": {
+    "eventBusEnabled": false,
+    "wsDownstreamEnabled": true,
+    "wsDownstreamPort": 4000
+  },
   "upstream": {
     "enabled": false,
-    "url": "http://10.3.244.143:4000",
-    "jwtKey": ""
+    "url": "http://10.3.254.79:4000",
+    "jwtKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZjZDg4ZTY2LTk4MzktNDZmMi05MTc3LThjZTYxNDM2OGVlOCIsInVzZXJJZCI6IjIwNjcyMmVjLTZjYWYtNGUzNC1iMGQ4LWVkMTliZGU5MjgwYyIsImlhdCI6MTUxMzc4MjgyN30.ErnA89xtbyq9aA7CugK010b6M8JfPqJ7gCk2M70Y054"
   },
   "influx": {
     "db": "example_site"
